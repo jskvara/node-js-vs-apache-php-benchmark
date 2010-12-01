@@ -7,6 +7,7 @@ echo '<p>Hello World</p>';
 }}}
 
 == Node JS ==
+File `hello-world.js`:
 {{{
 var sys = require('sys'),
 http = require('http');
@@ -16,4 +17,9 @@ http.createServer(function(req, res) {
   res.write('<p>Hello World</p>');
   res.end();
 }).listen(8080);
+}}}
+
+Run:
+{{{
+node hello-world.js
 }}}
