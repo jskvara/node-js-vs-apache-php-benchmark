@@ -1,0 +1,11 @@
+= Configuration =
+
+== Apache modules ==
+For better performance were all unused Apache modules removed. In folder `/etc/apache2/mods-enabled` were only following files:
+{{{
+authz_host.load
+mime.conf
+mime.load
+php5.conf
+php5.load
+}}}
