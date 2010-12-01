@@ -2,7 +2,9 @@
 
 == Debian with Apache ==
 Get debian sources from [http://www.debian.org/distrib/ debian.org/distrib/].
+
 There are more posibilities: small image only with core and other is downloaded during installation or large image with all modules included.
+
 For installation follow instructions. Apache is included in standard distribution.
 
 == Node JS ==
