@@ -1,0 +1,3 @@
+= Introduction =
+
+This project describes some performance tests for NodeJS (JavaScript server implementation) and Apache with PHP5 module.
