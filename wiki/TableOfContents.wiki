@@ -1,3 +1,5 @@
  * [Installation Installation]
  * [Environment Environment]
+ * [Configuration Configuration]
  * [SourceCode SourceCode]
+ * [Tests Tests]
