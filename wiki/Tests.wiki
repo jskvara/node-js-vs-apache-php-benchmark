@@ -3,14 +3,13 @@
 == Apache Bench ==
 For tests were used [http://httpd.apache.org/docs/2.2/programs/ab.html Apache Bench]. This program is included in standard Apache distribution. It is placed in: `/usr/sbin/ab`.
 
-This program has two important options `-n`: number of requests and `-c`: number of concurrent requests and the last is url. Example:
+This program has two important options `-n` number of requests and `-c` number of concurrent requests and the last is url.
 {{{
 /usr/sbin/ab -n 100000 -c 1000 http://localhost:8080/
 }}}
 
 == Test 1 ==
 10.000 requests, 10 concurrent
-|| || 1 || 2 || 3 || 4 || 5 ||
-|| Apache || 5.451 || 5.373 || 5.388 || 5.257 || 5.612 ||
-|| nodeJS || 2.915 || 2.704 || 2.747 || 2.763 || 2.749 ||
-
+|| *x* || *1* || *2* || *3* || *4* || *5* ||
+|| *Apache* || 5.451 || 5.373 || 5.388 || 5.257 || 5.612 ||
+|| *nodeJS* || 2.915 || 2.704 || 2.747 || 2.763 || 2.749 ||
