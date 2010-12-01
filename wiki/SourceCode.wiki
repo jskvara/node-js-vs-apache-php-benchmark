@@ -1,14 +1,14 @@
 = Source code =
 
 == PHP ==
-`index.php`:
+`index.php`
 {{{
 <?php
 echo '<p>Hello World</p>';
 }}}
 
 == Node JS ==
-`hello-world.js`:
+`hello-world.js`
 {{{
 var sys = require('sys'),
 http = require('http');
