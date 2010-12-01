@@ -20,3 +20,8 @@ Version of Apache:
 Server version: Apache/2.2.9 (Debian)
 Server built:   Apr 19 2010 19:57:58
 }}}
+
+Version of Node:
+{{{
+node-0.2.5
+}}}
