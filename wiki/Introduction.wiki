@@ -4,4 +4,4 @@ This project describes some performance tests for NodeJS (JavaScript server impl
 
 This test was inspired by article [http://zgadzaj.com/benchmarking-node-js-testing-performance-against-apache-php/ Benchmarking Node.js – basic performance tests against Apache + PHP]. But the test was pretty unfair, because Apache send much more headers. 
 
-In this test all unused headers were removed from Apache and some added to nodeJs. Same amount of data should be send now in both cases.
+In this test all unused headers were removed from Apache and some added to nodeJS. Same amount of data is send now from both Apache and nodeJS.
