@@ -3,12 +3,14 @@
 == Debian ==
 
 == Node JS ==
-Download form [http://nodejs.org nodejs.org]
+Download sources form [http://nodejs.org nodejs.org]
+
 Install dependent libraries:
 {{{
 sudo apt-get install g++ make curl libssl-dev apache2-utils
 }}}
-Install:
+
+Unzip and install nodeJs:
 {{{
 tar xzf node-v0.2.5.tar.gz
 cd node-v0.2.5
