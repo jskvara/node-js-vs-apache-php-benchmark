@@ -16,12 +16,14 @@ php5.load
 Lot of headers, that are send by Apache, had to be removed, because NodeJS sends much less headers.
 
 *Remove X-Powered-By:*
+
 In file `/etc/php5/apache2/php.ini` on (line 260) set:
 {{{
 expose_php = Off
 }}}
 
 *Remove Server signature:*
+
 In Apache configuration set:
 {{{
 ServerSignature Off
@@ -29,6 +31,7 @@ ServerTokens Prod
 }}}
 
 *Remove KeepAlive header:*
+
 Set in Apache config:
 {{{
 KeepAlive: Off
