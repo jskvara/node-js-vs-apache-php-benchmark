@@ -18,5 +18,5 @@ Version of Apache:
 *`apache2 -v`*
 {{{
 Server version: Apache/2.2.9 (Debian)
-Server built:      Apr 19 2010 19:57:58
+Server built:   Apr 19 2010 19:57:58
 }}}
