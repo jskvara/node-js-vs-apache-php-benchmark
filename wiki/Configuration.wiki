@@ -1,11 +1,35 @@
 = Configuration =
 
 == Apache modules ==
-For better performance were all unused Apache modules removed. In folder `/etc/apache2/mods-enabled` were only following files:
+For better performance were all unused Apache modules removed. 
+
+In folder `/etc/apache2/mods-enabled` were only following files:
 {{{
 authz_host.load
 mime.conf
 mime.load
 php5.conf
 php5.load
+}}}
+
+== Remove headers ==
+Lot of headers, that are send by Apache, had to be removed, because NodeJS sends much less headers.
+
+*Remove X-Powered-By:*
+In file `/etc/php5/apache2/php.ini` on (line 260) set:
+{{{
+expose_php = Off
+}}}
+
+*Remove Server signature:*
+In Apache configuration set:
+{{{
+ServerSignature Off
+ServerTokens Prod
+}}}
+
+*Remove KeepAlive header:*
+Set in Apache config:
+{{{
+KeepAlive: Off
 }}}
