@@ -53,8 +53,8 @@ http://img829.imageshack.us/img829/1903/chart2r.png
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=5 Graph]
 
-vmstat graph Apache PHP
+=== vmstat graph Apache PHP ===
 [http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.png http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.th.png]
 
-vmstat graph nodeJS
+=== vmstat graph nodeJS ===
 [http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.png http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.th.png]
