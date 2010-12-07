@@ -54,7 +54,7 @@ http://img829.imageshack.us/img829/1903/chart2r.png
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=5 Graph]
 
 vmstat graph Apache PHP
-http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.png
+[http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.png http://desmond.yfrog.com/Himg715/scaled.php?tn=0&server=715&filename=vmstatapacheallcharts.png&xsize=640&ysize=640&nothing=j.png]
 
 vmstat graph nodeJS
-http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.png
+[http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.png http://desmond.yfrog.com/Himg163/scaled.php?tn=0&server=163&filename=vmstatnodeallcharts.png&xsize=640&ysize=640&nothing=j.png]
