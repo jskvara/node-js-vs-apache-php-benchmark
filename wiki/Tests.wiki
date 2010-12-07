@@ -38,4 +38,6 @@ This program has two important options `-n` number of requests and `-c` number o
 || *Apache* || 62.977 || 62.434 || 62.901 || 64.954 || 67.558 ||
 || *nodeJS* || 30.682 || 31.067 || 31.330 || 32.476 || 31.474 ||
 
+http://img26.imageshack.us/img26/4092/chart1s.png
+
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=0 Graph]
