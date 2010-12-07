@@ -10,8 +10,8 @@ This program has two important options `-n` number of requests and `-c` number o
 
 == 10.000 requests, 10 concurrent ==
 || *x* || *1* || *2* || *3* || *4* || *5* ||
-|| *Apache* || 5.451 || 5.373 || 5.388 || 5.257 || 5.612 ||
-|| *nodeJS* || 2.915 || 2.704 || 2.747 || 2.763 || 2.749 ||
+|| *Apache PHP* || 5.451 || 5.373 || 5.388 || 5.257 || 5.612 ||
+|| *nodeJS*     || 2.915 || 2.704 || 2.747 || 2.763 || 2.749 ||
 
 http://img703.imageshack.us/img703/6621/chart4.png
 
@@ -19,8 +19,8 @@ http://img703.imageshack.us/img703/6621/chart4.png
 
 == 10.000 requests, 100 concurrent ==
 || *x* || *1* || *2* || *3* || *4* || *5* ||
-|| *Apache* || 5.712 || 5.669 || 5.671 || 5.725 || 5.540 ||
-|| *nodeJS* || 3.114 || 2.847 || 2.928 || 2.895 || 2.846 ||
+|| *Apache PHP* || 5.712 || 5.669 || 5.671 || 5.725 || 5.540 ||
+|| *nodeJS*     || 3.114 || 2.847 || 2.928 || 2.895 || 2.846 ||
 
 http://img406.imageshack.us/img406/3571/chart3.png
 
@@ -28,8 +28,8 @@ http://img406.imageshack.us/img406/3571/chart3.png
 
 == 10.000 requests, 1000 concurrent ==
 || *x* || *1* || *2* || *3* || *4* || *5* ||
-|| *Apache* || 9.166 || 7.235 || 7.047 || 8.356 || 7.548 ||
-|| *nodeJS* || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
+|| *Apache PHP* || 9.166 || 7.235 || 7.047 || 8.356 || 7.548 ||
+|| *nodeJS*     || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
 
 http://img121.imageshack.us/img121/8198/chart2e.png
 
@@ -37,9 +37,16 @@ http://img121.imageshack.us/img121/8198/chart2e.png
 
 == 100.000 requests, 1000 concurrent ==
 || *x* || *1* || *2* || *3* || *4* || *5* ||
-|| *Apache* || 62.977 || 62.434 || 62.901 || 64.954 || 67.558 ||
-|| *nodeJS* || 30.682 || 31.067 || 31.330 || 32.476 || 31.474 ||
+|| *Apache PHP* || 62.977 || 62.434 || 62.901 || 64.954 || 67.558 ||
+|| *nodeJS*     || 30.682 || 31.067 || 31.330 || 32.476 || 31.474 ||
 
 http://img26.imageshack.us/img26/4092/chart1s.png
+
+[https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=0 Graph]
+
+== concurrency bencmark ==
+|| *concurrency* || *100* || *200* || *400* || *800*  ||
+|| *Apache PHP*  || 6.337 || 6.955 || 6.723 || 19.232 ||
+|| *nodeJS*      || 3.461 || 3.284 || 3.721 || 3.689  ||
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=0 Graph]
