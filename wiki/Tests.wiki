@@ -30,6 +30,8 @@ This program has two important options `-n` number of requests and `-c` number o
 || *Apache* || 9.166 || 7.235 || 7.047 || 8.356 || 7.548 ||
 || *nodeJS* || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
 
+[http://img121.imageshack.us/img121/8198/chart2e.png http://img121.imageshack.us/img121/8198/chart2e.png]
+
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=1 Graph]
 
 == 100.000 requests ==
