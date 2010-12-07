@@ -14,6 +14,8 @@ This program has two important options `-n` number of requests and `-c` number o
 || *Apache* || 5.451 || 5.373 || 5.388 || 5.257 || 5.612 ||
 || *nodeJS* || 2.915 || 2.704 || 2.747 || 2.763 || 2.749 ||
 
+http://img703.imageshack.us/img703/6621/chart4.png
+
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=4 Graph]
 
 == 100 concurrent ==
@@ -21,6 +23,8 @@ This program has two important options `-n` number of requests and `-c` number o
 || *x* || *1* || *2* || *3* || *4* || *5* ||
 || *Apache* || 5.712 || 5.669 || 5.671 || 5.725 || 5.540 ||
 || *nodeJS* || 3.114 || 2.847 || 2.928 || 2.895 || 2.846 ||
+
+http://img406.imageshack.us/img406/3571/chart3.png
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=2 Graph]
 
@@ -30,7 +34,7 @@ This program has two important options `-n` number of requests and `-c` number o
 || *Apache* || 9.166 || 7.235 || 7.047 || 8.356 || 7.548 ||
 || *nodeJS* || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
 
-[http://img121.imageshack.us/img121/8198/chart2e.png http://img121.imageshack.us/img121/8198/chart2e.png]
+http://img121.imageshack.us/img121/8198/chart2e.png
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=1 Graph]
 
