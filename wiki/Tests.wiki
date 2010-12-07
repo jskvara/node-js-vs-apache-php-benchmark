@@ -49,4 +49,6 @@ http://img26.imageshack.us/img26/4092/chart1s.png
 || *Apache PHP*  || 6.337 || 6.955 || 6.723 || 19.232 ||
 || *nodeJS*      || 3.461 || 3.284 || 3.721 || 3.689  ||
 
-[https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=0 Graph]
+http://img829.imageshack.us/img829/1903/chart2r.png
+
+[https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=5 Graph]
