@@ -2,7 +2,7 @@
 
 All tests were running in VMware virtual machine with Debian Lenny.
 
-*Virtual machine:*
+*Virtual machine:* VMware
 {{{
 Processors: 1
 Memory: 512 MB
