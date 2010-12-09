@@ -1,9 +1,9 @@
 = Tests =
 
 == Apache Bench ==
-For tests were used [http://httpd.apache.org/docs/2.2/programs/ab.html Apache Bench]. This program is included in standard Apache distribution. It is placed in: `/usr/sbin/ab`.
+[http://httpd.apache.org/docs/2.2/programs/ab.html Apache Bench] was choosed as a best choice for the tests. This program is included in standard Apache distribution. It is placed in: `/usr/sbin/ab`.
 
-This program has two important options `-n` number of requests and `-c` number of concurrent requests and the last is url.
+This program has two important options `-n` number of requests and `-c` number of concurrency of requests and the last is url.
 {{{
 /usr/sbin/ab -n 100000 -c 1000 http://localhost:8080/
 }}}
