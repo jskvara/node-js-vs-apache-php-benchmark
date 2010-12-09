@@ -1,7 +1,7 @@
 = Configuration =
 
 == Apache modules ==
-For better performance were all unused Apache modules removed. 
+All unused Apache modules were removed for better performance. 
 
 In folder `/etc/apache2/mods-enabled` were only following files:
 {{{
