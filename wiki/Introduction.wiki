@@ -6,4 +6,4 @@ This test was inspired by article [http://zgadzaj.com/benchmarking-node-js-testi
 
 In this test all unused headers were removed from Apache and some added to nodeJS. Same amount of data is send now from both Apache and nodeJS.
 
-This benchmark was tested in December 2010.
+This benchmark was created in December 2010.
