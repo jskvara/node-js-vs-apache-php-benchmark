@@ -12,7 +12,7 @@ php5.conf
 php5.load
 }}}
 
-== Remove headers ==
+== Removed headers ==
 Lot of headers, that are send by Apache, had to be removed, because NodeJS sends much less headers.
 
 *Remove X-Powered-By:*
