@@ -40,7 +40,7 @@ KeepAlive: Off
 == The resulting response is comparable. ==
 *Apache sends these headers:*
 {{{
-Date: 
+Date: ...
 Server: Apache/2.2.9
 Content-Length: 18
 Connection: close
