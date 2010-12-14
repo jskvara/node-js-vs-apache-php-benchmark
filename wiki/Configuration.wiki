@@ -37,7 +37,7 @@ Set in Apache config:
 KeepAlive: Off
 }}}
 
-The resulting response is comparable.
+== The resulting response is comparable. ==
 *Apache sends these headers:*
 {{{
 Date: 
