@@ -38,10 +38,13 @@ KeepAlive: Off
 }}}
 
 == Full Apache configuration ==
-[http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/apache2.conf apache2.conf]
-
-[http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/envvars envvars]
-
-[http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/ports.conf ports.conf]
-
-[http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/security security]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/apache2.conf apache2.conf]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/envvars envvars]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/ports.conf ports.conf]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/security security]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/modules-enabled/authz_host.load modules-enabled/authz_host.load]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/modules-enabled/mime.conf modules-enabled/mime.conf]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/modules-enabled/mime.load modules-enabled/mime.load]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/modules-enabled/php5.conf modules-enabled/php5.conf]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/modules-enabled/php5.load modules-enabled/php5.load]
+ * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/sites-enabled/000-default sites-enabled/000-default]
