@@ -39,8 +39,3 @@
  #   </Directory>
 
 </VirtualHost>
-llow,deny
-#		Allow from all
-#	</Directory>
-
-	ErrorLog /var/
