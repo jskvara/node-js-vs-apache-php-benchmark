@@ -13,7 +13,7 @@ php5.load
 }}}
 
 == Removed headers ==
-Lot of headers, that are send by Apache, had to be removed, because NodeJS sends much less headers.
+Lot of headers, that are send by Apache, had to be removed, because NodeJS sends much less headers. These were removed by:
 
 *Remove X-Powered-By:*
 
@@ -36,6 +36,8 @@ Set in Apache config:
 {{{
 KeepAlive: Off
 }}}
+
+The resulting response is comparable.
 
 == Full Apache configuration ==
  * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/apache2.conf apache2.conf]
