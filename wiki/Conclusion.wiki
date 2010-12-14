@@ -1,0 +1,7 @@
+= Conclusion =
+
+According to this benchmark nodeJs is much faster than Apache with PHP. NodeJs can serve more concurrent connections, but it consumes more memory and CPU.
+
+NodeJs is very fast, but JavaScript on the server side is a new concept. It needs time to develop frameworks and libraries for this, to be successful. Apache has a lot of standard modules and useful plugins and is the mostly used web server. On the Internet there are a lot of tutorials and tips.
+
+Both of these has its own advantages and disadvantages. NodeJs is a good choice, when we care about performance and concurrent connections. It is also useful to use one programming language on the server side and also on the client side. But we have to develop everything from scratch and documentation is also not so good. We use Apache when we need various modules, scripts or settings. Everything including all plugins for Apache is good documented.
