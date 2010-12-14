@@ -38,6 +38,22 @@ KeepAlive: Off
 }}}
 
 The resulting response is comparable.
+*Apache sends these headers:*
+{{{
+Date: 
+Server: Apache/2.2.9
+Content-Length: 18
+Connection: close
+Content-Type: text/html
+}}}
+
+*nodeJs sends:*
+{{{
+Server: nodeJs
+Content-Typte: text/html
+Content-Length: 18
+Connection: close
+}}}
 
 == Full Apache configuration ==
  * [http://code.google.com/p/node-js-vs-apache-php-benchmark/source/browse/trunk/apache2.conf apache2.conf]
