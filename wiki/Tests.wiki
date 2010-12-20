@@ -64,5 +64,5 @@ Second test was focused on complicated computation of Pi number.
 Source code for both servers is here: http://code.google.com/p/node-js-vs-apache-php-benchmark/wiki/SourceCode
 == 1.000 requests, 100 concurrent ==
 || *x* || *1* || *2* || *3* || *4* || *5* ||
-|| *Apache PHP* || 369.187 || 7.235 || 7.047 || 8.356 || 7.548 ||
-|| *nodeJS*     || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
+|| *Apache PHP* || 38.359 || 37.930 || 37.058 || 37.441 || 36.704 ||
+|| *nodeJS*     || 3.798 || 3.740 || 3.856 || 3.755 || 3.878 ||
