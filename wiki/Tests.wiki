@@ -68,3 +68,8 @@ Source code for both PHP and node is here: http://code.google.com/p/node-js-vs-a
 || *nodeJS*     || 3.798 || 3.740 || 3.856 || 3.755 || 3.878 ||
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=6 Graph]
+
+== concurrency bencmark ==
+|| *concurrency* || *10* || *20* || *40* || *80*  ||
+|| *Apache PHP*  || 36.411 || 36.017 || 36.527 || 37.137 ||
+|| *nodeJS*      || 3.730 || 3.609 || 3.556 || 3.596  ||
