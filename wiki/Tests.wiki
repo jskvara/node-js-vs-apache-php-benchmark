@@ -77,7 +77,7 @@ Source code for both PHP and node is here: http://code.google.com/p/node-js-vs-a
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=7 Graph]
 
 === vmstat graph Apache PHP ===
-[http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.png http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.th.png]
+[http://img834.imageshack.us/img834/9661/vmstatnodeindex2allchar.png http://img834.imageshack.us/img834/9661/vmstatnodeindex2allchar.th.png]
 
 === vmstat graph nodeJS ===
 [http://img155.imageshack.us/img155/7426/vmstatapacheindex2allch.png http://img155.imageshack.us/img155/7426/vmstatapacheindex2allch.th.png]
