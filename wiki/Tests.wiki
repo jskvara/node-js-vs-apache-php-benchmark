@@ -76,7 +76,7 @@ http://img204.imageshack.us/img204/4425/chart5h.png
 || *Apache PHP*  || 36.411 || 36.017 || 36.527 || 37.137 ||
 || *nodeJS*      || 3.730 || 3.609 || 3.556 || 3.596  ||
 
-http://img441.imageshack.us/img441/4158/chart6.png
+http://img153.imageshack.us/img153/4158/chart6.png
 
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=7 Graph]
 
