@@ -66,3 +66,5 @@ Source code for both PHP and node is here: http://code.google.com/p/node-js-vs-a
 || *x* || *1* || *2* || *3* || *4* || *5* ||
 || *Apache PHP* || 38.359 || 37.930 || 37.058 || 37.441 || 36.704 ||
 || *nodeJS*     || 3.798 || 3.740 || 3.856 || 3.755 || 3.878 ||
+
+[https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=6 Graph]
