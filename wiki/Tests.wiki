@@ -58,3 +58,11 @@ http://img829.imageshack.us/img829/1903/chart2r.png
 
 === vmstat graph nodeJS ===
 [http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.png http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.th.png]
+
+== Test Pi Calculation ==
+Second test was focused on complicated computation of Pi number.
+Source code for both servers is here: http://code.google.com/p/node-js-vs-apache-php-benchmark/wiki/SourceCode
+== 1.000 requests, 100 concurrent ==
+|| *x* || *1* || *2* || *3* || *4* || *5* ||
+|| *Apache PHP* || 369.187 || 7.235 || 7.047 || 8.356 || 7.548 ||
+|| *nodeJS*     || 3.207 || 3.211 || 3.271 || 3.280 || 3.150 ||
