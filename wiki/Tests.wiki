@@ -67,6 +67,8 @@ Source code for both PHP and node is here: http://code.google.com/p/node-js-vs-a
 || *Apache PHP* || 38.359 || 37.930 || 37.058 || 37.441 || 36.704 ||
 || *nodeJS*     || 3.798 || 3.740 || 3.856 || 3.755 || 3.878 ||
 
+http://img204.imageshack.us/img204/4425/chart5h.png
+
 [https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=6 Graph]
 
 == concurrency bencmark ==
