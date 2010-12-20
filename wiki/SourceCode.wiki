@@ -12,10 +12,10 @@ echo '<p>Hello World</p>';
 <?php
 
 $x = 3;
-$pocetKroku = 1000000;
+$steps = 1000000;
 $pi = (1 - 1 / $x);
 
-for ($i = 0; $i < $pocetKroku; $i++) {
+for ($i = 0; $i < $steps; $i++) {
 	$x += 2;
 	if ($i % 2) {
 		$pi -= 1/$x;
@@ -60,10 +60,10 @@ http.createServer(function(req, res) {
   });
 
   var x = 3;
-  var pocetKroku = 100000;
+  var steps = 1000000;
   var pi = (1 - 1 / x);
 
-  for (var i = 0; i < pocetKroku; i++) {
+  for (var i = 0; i < steps; i++) {
     x += 2;
     if (i % 2) {
       pi -= 1/x;
