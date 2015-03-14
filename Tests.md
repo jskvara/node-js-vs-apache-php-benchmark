@@ -1,0 +1,94 @@
+# Tests #
+
+## Apache Bench ##
+[Apache Bench](http://httpd.apache.org/docs/2.2/programs/ab.html) was choosed as a best choice for the tests. This program is included in standard Apache distribution. It is placed in: `/usr/sbin/ab`.
+
+This program has two important options `-n` number of requests and `-c` number of concurrency of requests and the last is url.
+```
+/usr/sbin/ab -n 100000 -c 1000 http://localhost:8080/
+```
+
+## 10.000 requests, 10 concurrent ##
+| **x** | **1** | **2** | **3** | **4** | **5** |
+|:------|:------|:------|:------|:------|:------|
+| **Apache PHP** | 5.451 | 5.373 | 5.388 | 5.257 | 5.612 |
+| **nodeJS**     | 2.915 | 2.704 | 2.747 | 2.763 | 2.749 |
+
+![http://img703.imageshack.us/img703/6621/chart4.png](http://img703.imageshack.us/img703/6621/chart4.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=4)
+
+## 10.000 requests, 100 concurrent ##
+| **x** | **1** | **2** | **3** | **4** | **5** |
+|:------|:------|:------|:------|:------|:------|
+| **Apache PHP** | 5.712 | 5.669 | 5.671 | 5.725 | 5.540 |
+| **nodeJS**     | 3.114 | 2.847 | 2.928 | 2.895 | 2.846 |
+
+![http://img406.imageshack.us/img406/3571/chart3.png](http://img406.imageshack.us/img406/3571/chart3.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=2)
+
+## 10.000 requests, 1000 concurrent ##
+| **x** | **1** | **2** | **3** | **4** | **5** |
+|:------|:------|:------|:------|:------|:------|
+| **Apache PHP** | 9.166 | 7.235 | 7.047 | 8.356 | 7.548 |
+| **nodeJS**     | 3.207 | 3.211 | 3.271 | 3.280 | 3.150 |
+
+![http://img121.imageshack.us/img121/8198/chart2e.png](http://img121.imageshack.us/img121/8198/chart2e.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=1)
+
+## 100.000 requests, 1000 concurrent ##
+| **x** | **1** | **2** | **3** | **4** | **5** |
+|:------|:------|:------|:------|:------|:------|
+| **Apache PHP** | 62.977 | 62.434 | 62.901 | 64.954 | 67.558 |
+| **nodeJS**     | 30.682 | 31.067 | 31.330 | 32.476 | 31.474 |
+
+![http://img26.imageshack.us/img26/4092/chart1s.png](http://img26.imageshack.us/img26/4092/chart1s.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=0)
+
+## concurrency bencmark ##
+| **concurrency** | **100** | **200** | **400** | **800**  |
+|:----------------|:--------|:--------|:--------|:---------|
+| **Apache PHP**  | 6.337 | 6.955 | 6.723 | 19.232 |
+| **nodeJS**      | 3.461 | 3.284 | 3.721 | 3.689  |
+
+![http://img829.imageshack.us/img829/1903/chart2r.png](http://img829.imageshack.us/img829/1903/chart2r.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=5)
+
+### vmstat graph Apache PHP ###
+![![](http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.th.png)](http://img163.imageshack.us/img163/5713/vmstatnodeallcharts.png)
+
+### vmstat graph nodeJS ###
+![![](http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.th.png)](http://img715.imageshack.us/img715/5396/vmstatapacheallcharts.png)
+
+## Test Pi Calculation ##
+Second test was focused on complicated computation of Pi number.
+Source code for both PHP and node is here: http://code.google.com/p/node-js-vs-apache-php-benchmark/wiki/SourceCode
+## 100 requests, 100 concurrent ##
+| **x** | **1** | **2** | **3** | **4** | **5** |
+|:------|:------|:------|:------|:------|:------|
+| **Apache PHP** | 38.359 | 37.930 | 37.058 | 37.441 | 36.704 |
+| **nodeJS**     | 3.798 | 3.740 | 3.856 | 3.755 | 3.878 |
+
+![http://img204.imageshack.us/img204/4425/chart5h.png](http://img204.imageshack.us/img204/4425/chart5h.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=6)
+
+## concurrency bencmark ##
+| **concurrency** | **10** | **20** | **40** | **80**  |
+|:----------------|:-------|:-------|:-------|:--------|
+| **Apache PHP**  | 36.411 | 36.017 | 36.527 | 37.137 |
+| **nodeJS**      | 3.730 | 3.609 | 3.556 | 3.596  |
+
+![http://img153.imageshack.us/img153/4158/chart6.png](http://img153.imageshack.us/img153/4158/chart6.png)
+
+[Graph](https://spreadsheets.google.com/pub?key=0AkbD8jGFgVtadE52WW5Uc29hT1M2d2dIZVozSWcxb1E&hl=en&gid=7)
+
+### vmstat graph Apache PHP ###
+![![](http://img155.imageshack.us/img155/7426/vmstatapacheindex2allch.th.png)](http://img155.imageshack.us/img155/7426/vmstatapacheindex2allch.png)
+
+### vmstat graph nodeJS ###
+![![](http://img834.imageshack.us/img834/9661/vmstatnodeindex2allchar.th.png)](http://img834.imageshack.us/img834/9661/vmstatnodeindex2allchar.png)
