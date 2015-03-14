@@ -1,4 +1,4 @@
-# node-js-vs-apache-php-benchmark
+# Node + JavaScript vs Apache + PHP benchmark
 
 This project shows performance tests for NodeJS (JavaScript server implementation) and Apache with PHP5 module.
 
